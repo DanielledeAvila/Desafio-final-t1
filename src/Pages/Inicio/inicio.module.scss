@@ -1,0 +1,19 @@
+
+
+.post{
+    border: solid 2px red;
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;   
+    display: flex;
+    align-items: center;
+    color: white;
+    h2{
+        border: solid 2px red;
+        width: 27vw;
+        margin-left: 150px;
+        font-size: 40px;
+    }
+}
+
