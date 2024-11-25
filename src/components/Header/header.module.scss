@@ -1,54 +1,33 @@
 .header {
+    padding: 20px;
+    height: 15vh;
+    width: 100%;
     background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 20vh;
+    align-items: center;   
     color: white;
   }
-
-
-  .logoHeader {
-    display: flex;
-    width: 20%;
-    justify-content: space-around;
-    align-items: center;
-  
-    img {
-      width: 20%;
-    }
-  
-    h1 {
-      font-size: 30px;
-      color: #fff;
-    }
-  }
-  
-  .navHeader {
-    width: 30%;
-  
-    ul {
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
-    }
-  
-    .link {
-      color: #fff;
-      font-size: 20px;
-      text-decoration: none;
-    }
-  }
-  
 
   .boxLogo{
     width:23vw ;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     font-size: 25px;
     font-weight: bold;
-    color: white;
+   
+    img{
+      width: 20%;
+    }
+
+    h1{
+      font-size: 30px;
+      color: #fff;
+    }
   }
+
+  
   
   .boxMenu{   
     width: 35vw;
@@ -90,7 +69,10 @@
   }
 
 
-
+main{
+  height: 80vh;
+  border: solid 2px red;
+}
 
 
 

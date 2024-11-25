@@ -1,4 +1,4 @@
-
+import S from "./doados.module.scss"
 
 
 export default function Doados(){
@@ -8,3 +8,4 @@ export default function Doados(){
         </section>
     )
 }
+

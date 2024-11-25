@@ -1,4 +1,4 @@
-
+import S from "./querodoar.module.scss"
 
 
 export default function QueroDoar(){
