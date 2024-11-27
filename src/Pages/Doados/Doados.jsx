@@ -1,4 +1,4 @@
-import S from "./doados.module.scss"
+import s from "./doados.module.scss"
 
 
 export default function Doados(){

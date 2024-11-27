@@ -1,22 +1,22 @@
-import {BrowserRouter, Route, Routes, Link} from 'react-router-dom'
-import Inicio from '../../Pages/Inicio/Inicio'
-import Doados from '../../Pages/Doados/Doados'
-import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import Inicio from '../../Pages/Inicio/inicio'
+import Doados from '../../Pages/Doados/doados'
+import QueroDoar from '../../Pages/QueroDoar/querodoar'
 import Logo from '../../assets/Logo.png'
 import Search from '../../assets/search.png'
-import S from './header.module.scss'
+import s from './header.module.scss'
 
 
 export default function Header(){
     return(
         <BrowserRouter>
-            <header className={S.header} >
-                <section className={S.boxLogo} >
+            <header className={s.header} >
+                <section className={s.boxLogo} >
                     <img src={Logo} alt="Logo do vai na web" />
                     <h1>Livros Vai na Web</h1>
                 </section>
 
-                <nav className={S.boxMenu} >
+                <nav className={s.boxMenu} >
                     <ul>
                         <li>
                             <Link to="/">Inicio</Link>
@@ -30,17 +30,17 @@ export default function Header(){
                     </ul>
                 </nav>
 
-                <div className={S.boxSearch} >
-                    <input className={S.boxInput} type="text" placeholder="O que você procura?"/>
+                <div className={s.boxSearch} >
+                    <input className={s.boxInput} type="text" placeholder="O que você procura?"/>
                     <img src={Search} alt="Imagem de uma lupa" />
                 </div>
 
             </header>
 
             <Routes>
-                <Route patch="/" element={<Inicio/>}/>
-                <Route patch="/Doados" element={<Doados/>}/>
-                <Route patch="/QueroDoar" element={<QueroDoar/>}/>
+                <Route path="/" element={<Inicio/>}/>
+                <Route path="/Doados" element={<Doados/>}/>
+                <Route path="/QueroDoar" element={<QueroDoar/>}/>
             </Routes>
         </BrowserRouter>
     )

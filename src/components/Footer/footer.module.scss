@@ -3,6 +3,7 @@
 footer{
     border: solid 2px green;
     height: 20vh;    
+    color: white;
 }
 
 .boxSocial{
@@ -11,6 +12,24 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 50px;
+    nav{
+        border: solid 2px red;
+        width: 18vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.boxTexto{
+    background-color: rgba(35,32,32,1);
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 

@@ -1,27 +1,25 @@
-import S from './inicio.module.scss'
+import s from './inicio.module.scss'
 import network from '../../assets/network.png'
 import transform from '../../assets/transform.png'
 import read from '../../assets/read.png'
 import balance from '../../assets/balance.png'
 
 
-
-
 export default function Inicio(){
     return(
         <main>
 
-            <section className={S.post}>
+            <section className={s.post}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
 
-            <section classname={S.devoDoar}>
+            <section classname={s.devoDoar}>
                 <div>
                     <h2>Por que devo Doar?</h2>
                 </div>            
             </section>
 
-            <section className={S.boxCard}>
+            <section className={s.boxCard}>
                     <article>
                         <img src={network} alt="imagem de 3 bonecos" />
                         <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
