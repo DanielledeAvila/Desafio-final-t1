@@ -1,6 +1,6 @@
 
  .post{   
-    border: solid 2px red;
+    //border: solid 2px red;
     background-image: url(../../assets/banner.png);
     background-repeat: no repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
 
 .devoDoar{
     height: 80vh;
-    border: solid 2px red;    
+    //border: solid 2px red;    
     div{
         border: solid 2px pink;
         height: 15vh;
@@ -32,14 +32,14 @@
 }
 
 .boxCard{
-    border: solid 2px yellow;
+    //border: solid 2px yellow;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     article{
-        border: solid 2px blue;
+        //border: solid 2px blue;
         width: 20%;
         height: 80%;
         background-color: rgba(1,87,148,0.3);
