@@ -4,13 +4,27 @@
     height: 80vh;
     display: flex;
     justify-content: center;
+    font-family: "Inter", serif;
+    
+
 }
 
 .container{
+    //border: solid 2px yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    h2{
+        //border: solid 2px red;
+        font-weight: 400;
+        text-align: center;
+        width: 80vw;
+    }
+
+    h3{
+        font-weight: 400;
+    }
 }
 
 form{
@@ -31,7 +45,7 @@ form{
     }
     input{
         border: solid 2px rgba(0,86, 149, 1);
-        width: 22vw;
+        width: 80%;
         height: 5vh;
         border-radius: 10px;
         outline: none;
@@ -43,7 +57,7 @@ form{
 }
 
 input:nth-child(6){
-    width: 10vw;
+    width: 40%;
     height: 6vh;
     padding-left: 0;
     background-color: rgba(0,86, 149, 1);
@@ -51,4 +65,40 @@ input:nth-child(6){
     cursor: pointer;
     font-size: 18px;
 
+}
+
+@media(max-width: 1070px){
+    
+    form{
+        width: 300px;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        height: 90vh;
+        h2{
+            font-size: 20px;
+            
+        }
+    }
+
+    .principal{
+        height: auto;
+    }
+}
+
+@media(max-width: 450px){
+    
+    form{
+        width: 75vw;
+        div{
+            img{
+                width: 13vw;
+            }
+        h3{
+            font-size: 4.5vw;
+        }
+        }
+    }
 }

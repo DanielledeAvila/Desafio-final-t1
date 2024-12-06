@@ -2,21 +2,29 @@
 
 
 .boxDoados{
+    //border: solid 2px green;
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    h2{
+        //border: solid 2px red;
+    }
 }
 
 .boxcard{
-    //border: solid 2px green;
+    //border: solid 2px blue;
     width: 85vw;
     height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
     article{
         border: solid 2px #005695;
         border-radius: 13px;
-        width: 13vw;
+        width: 200px;
         height: 32vh;
         display: flex;
         justify-content: space-evenly;
@@ -28,3 +36,13 @@
     }
 }
 
+
+@media(max-width: 900px){
+    .boxcard{
+        height: 80vh;
+    }
+
+    .boxDoados{
+        height: 90vh;
+    }
+}

@@ -9,12 +9,12 @@ export default function Inicio(){
     return(
         <main>
 
-            <section className={s.post}>
+            <section className={s.Frase}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
 
             <section classname={s.devoDoar}>
-                <div>
+                <div className={s.divdevoDoar}>
                     <h2>Por que devo Doar?</h2>
                 </div>            
             </section>
@@ -38,13 +38,9 @@ export default function Inicio(){
                     <article>
                         <img src={balance} alt="imagem de uma balança" />
                         <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
-                    </article>
-
-
-                
+                    </article>                
             </section>
         </main>
-
     )
 }
 
