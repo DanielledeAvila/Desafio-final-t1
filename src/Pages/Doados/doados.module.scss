@@ -2,23 +2,28 @@
 
 
 .boxDoados{
-    //border: solid 2px green;
-    height: 70vh;
+    //border: solid 4px yellow;
+    //height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
+    min-height: 80vh;
+    margin-bottom: 30px;
     h2{
-        //border: solid 2px red;
+        height: 100px;
+        display: flex;
+        align-items: center;
     }
 }
 
 .boxcard{
-    //border: solid 2px blue;
+    //border: solid 4px red;
     width: 85vw;
-    height: 60vh;
+    //height: 60vh;
+    min-height: 70vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
     article{
@@ -30,8 +35,12 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
+        h3{
+            color: red
+        }
         img{
             padding-bottom: 20px;
+            width: 30%;
         }
     }
 }
