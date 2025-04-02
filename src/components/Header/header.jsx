@@ -34,7 +34,6 @@ export default function Header(){
                     <input className={s.boxInput} type="text" placeholder="O que você procura?"/>
                     <img src={Search} alt="Imagem de uma lupa" />
                 </div>
-
             </header>
 
             <Routes>
