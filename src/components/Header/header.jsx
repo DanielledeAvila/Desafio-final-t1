@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Inicio from '../../Pages/Inicio/inicio'
-import Doados from '../../Pages/Doados/doados'
+import Doados from '../../Pages/Doados/Doados'
 import QueroDoar from '../../Pages/QueroDoar/querodoar'
 import Logo from '../../assets/Logo.png'
 import Search from '../../assets/search.png'
